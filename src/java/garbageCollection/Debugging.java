@@ -1,4 +1,4 @@
-package garbagecollection;
+package garbageCollection;
 
 class NewsPaper {
 
