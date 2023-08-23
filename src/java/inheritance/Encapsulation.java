@@ -1,6 +1,7 @@
 package inheritance;
 
 public class Encapsulation {
+    static private final String parentPrivateVariable = "parentPrivateVariable";
 
     static class Parent {
         public String publicVariable = "publicVariable";
@@ -52,6 +53,7 @@ public class Encapsulation {
 //        @Override
         private String getPrivateVariable() { //private method cannot be seen by child class, so it's not restricted, but
             // also note this means it cannot be overwritten.
+            System.out.println(parentPrivateVariable);
             return privateVariable;
         }
     }
