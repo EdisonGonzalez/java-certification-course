@@ -2,7 +2,7 @@ package interfaces;
 
 import java.io.IOException;
 
-public class OverrideAndThrows implements FunctionalInterfaceThatThrows{
+public class OverrideAndThrows implements FunctionalInterfaceThatThrows {
 
     @Override
     public void doSomethingMayThrow() {

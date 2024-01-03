@@ -14,6 +14,7 @@ class ConcreteDancer implements Dancer {
     @Override
     public void dance() {
         Dancer.super.dance();
+        // Dancer.dance(); // Static call, dance only exist if exist an instance of Dancer interface
     }
 }
 
